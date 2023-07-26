@@ -46,7 +46,7 @@
     <!-- navber -->
     <nav>
       <div class="navbar bg-background rounded-full mb-20 ">
-        <div class="lg:navbar-start lg:justify-center justify-between w-full p-2  order-2">
+        <div class="lg:navbar-start lg:justify-center justify-between p-2  order-2">
           <div class="dropdown text-white">
             <label tabindex="0" class="btn btn-ghost lg:hidden">
               <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
@@ -177,7 +177,7 @@
     <!-- Deal of the day section -->
     <section>
       <div>
-        <div class="flex-1 text-center lg:flex md:text-center lg:text-start justify-between mt-5">
+        <div class="flex-1 text-center lg:flex md:text-center lg:text-start justify-between mt-5 p-3">
           <div class="space-y-4">
             <h2 class="text-2xl lg:text-5xl font-extrabold">Deal of the day</h2>
             <p class="font-medium">Contrary to popular belief, is not simply random text. It has roots in a piece of
@@ -185,7 +185,7 @@
           </div>
           <!-- counting -->
           <div>
-            <div class="md:w-96 lg:w-96 mx-auto mt-5 grid grid-flow-col gap-5 text-center lg:auto-cols-max">
+            <div class="md:w-96 lg:w-96 mx-auto mt-5 grid grid-flow-col Lg:gap-5 text-center lg:auto-cols-max">
               <div class="flex flex-col text-center ">
                 <div>
                   <span class="countdown font-mono text-5xl">
@@ -202,16 +202,21 @@
                 </div>
                 hours
               </div>
-              <div class="flex flex-col">
-                <span class="countdown font-mono text-5xl">
-                  <span style="--value:24;"></span>
-                </span>
+              <div class="flex flex-col text-center">
+                <div>
+                  <span class="countdown font-mono text-5xl">
+                    <span style="--value:10;"></span>
+                  </span>
+                </div>
                 min
               </div>
-              <div class="flex flex-col">
-                <span class="countdown font-mono text-5xl">
-                  <span style="--value:28;"></span>
-                </span>
+              
+              <div class="flex flex-col text-center">
+                <div>
+                  <span class="countdown font-mono text-5xl">
+                    <span style="--value:10;"></span>
+                  </span>
+                </div>
                 sec
               </div>
             </div>
@@ -219,9 +224,9 @@
         </div>
       </div>
       <!-- Deal card -->
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 mx-auto mt-24">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 mx-auto mt-24 p-4 w-full">
         <!-- first modal card -->
-        <div class="card w-full bg-base-100 border-2">
+        <div class="card lg:w-full bg-base-100 border-2">
           <figure class="px-10 pt-10">
             <img src="./images/fruit6.png" alt="Shoes" class="rounded-xl" />
           </figure>
